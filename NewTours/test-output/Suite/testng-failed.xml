@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <parameter name="appURL" value="http://newtours.demoaut.com/mercurywelcome.php"/>
+    <parameter name="browserType" value="firefox"/>
+    <classes>
+      <class name="com.pack.pageobjects.FlightBookingTest">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyHomePage"/>
+          <include name="verifyLogInFunction"/>
+        </methods>
+      </class> <!-- com.pack.pageobjects.FlightBookingTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

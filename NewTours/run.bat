@@ -1,0 +1,1 @@
+java -cp C:/Selenium/NewTours/bin;C:/Selenium/NewTours/lib/* org.testng.TestNG testng.xml
