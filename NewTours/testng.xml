@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test name="Test">
      <parameter name="appURL" value="http://newtours.demoaut.com/mercurywelcome.php"></parameter>
-		<parameter name="browserType" value="firefox"></parameter>
+		<parameter name="browserType" value="chrome"></parameter>
 		
    
 <classes>
